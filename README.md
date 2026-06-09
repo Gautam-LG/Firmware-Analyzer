@@ -40,6 +40,17 @@ A Flask-based backend service for analyzing firmware files to detect tokens and 
    pip install -r requirements.txt
    ```
 
+## Installation using Docker
+
+```sh
+# For starting docker container
+docker compose up --build -d
+
+# For removing docker container
+docker compose down
+
+```
+
 ## Configuration
 
 Update `run.py` to customize the service:
